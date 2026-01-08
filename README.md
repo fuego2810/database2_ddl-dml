@@ -38,7 +38,6 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ![Задание 1](img/1grant2.png)
 
 ---
-### Ответ:
 #### Команды для получения всех таблиц базы данных:
 ![Задание 1](img/1tables3.png)
 
@@ -89,3 +88,12 @@ customer         | customer_id
 3.2. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
+ 
+---
+### Ответ:
+
+#### REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'sys_temp'@'localhost';
+#### GRANT SELECT ON sakila.* TO 'sys_temp'@'localhost';
+---
+![Задание 3](3no.png)
+
