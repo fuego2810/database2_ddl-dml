@@ -95,5 +95,5 @@ customer         | customer_id
 #### REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'sys_temp'@'localhost';
 #### GRANT SELECT ON sakila.* TO 'sys_temp'@'localhost';
 ---
-![Задание 3](3no.png)
+![Задание 3](img/3no.png)
 
